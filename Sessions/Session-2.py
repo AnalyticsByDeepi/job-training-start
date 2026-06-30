@@ -61,9 +61,7 @@ print("net_pay:", type(net_pay))
 #Task 3
 
 # Input + casting
-hourly_rate = float(input("Enter hourly rate: "))
-hours_worked = int(input("Enter hours worked: "))
-tax_bracket = float(input("Enter tax bracket (e.g., 0.2 for 20%): "))
+
 
 # Calculations
 gross_pay = hourly_rate * hours_worked
@@ -73,10 +71,7 @@ net_pay = gross_pay - (gross_pay * tax_bracket)
 width = 40
 
 # Header (centered with '=')
-print("=" * width)
-print(f"{'OFFICIAL PAYSLIP':=^{width}}")
-print("=" * width)
-
+print(f"{'OFFICIAL PAYSLIP':=^40}")
 # Salary details
 print(f"{'Hourly Rate:':<25} ₹{hourly_rate:>10.3f}")
 print(f"{'Hours Worked:':<25} ₹{hours_worked:>10.3f}")
@@ -120,7 +115,7 @@ current_access = GUEST | USER   # 0001 | 0010 = 0011
 NEW_SECURE_LEVEL = ADMIN << 1   # 0100 << 1 = 1000 (8 -> 16 in decimal logic shift)
 
 # 4. Check if USER bit is present using AND
-has_user = current_access & USER
+has_user = (current_access & USER) != 0
 
 # 5. Toggle (remove GUEST using XOR)
 current_access_toggled = current_access ^ GUEST
