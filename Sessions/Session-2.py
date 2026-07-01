@@ -60,9 +60,6 @@ print("net_pay:", type(net_pay))
 
 #Task 3
 
-# Input + casting
-
-
 # Calculations
 gross_pay = hourly_rate * hours_worked
 net_pay = gross_pay - (gross_pay * tax_bracket)

@@ -2,7 +2,7 @@
 # Date: 25-06-2026
 # Module 2: Core Fundamentals
 
-#Task 1
+# --- Task 1 ---
 # Matrix Slicing and List Manipulation
 
 data_stream = list(range(21))
@@ -27,7 +27,7 @@ print("Final List:", data_stream)
 print("Length of Final List:", len(data_stream))
 
 
-#Task 2
+# --- Task 2 ---
 # Immutable Records & Tuple Unpacking
 
 employee_record = (101, "Alice Smith", "Data Engineer", "London")
@@ -53,7 +53,7 @@ print("Mid:", mid)
 print("Tail:", tail)
 
 
-#Task 3
+## --- Task 3 ---
 # Deduplication and Set Hashability
 
 raw_ids = [1001, 1002, 1001, 1005, 1003, 1002, 1008]
@@ -72,7 +72,7 @@ print("Unique IDs:", unique_ids)
 print("Total Unique IDs:", len(unique_ids))
 
 
-#Task 4
+# --- Task 4 ---
 # Mathematical Set Operations
 
 frontend_devs = {"HTML", "CSS", "JS", "React", "Python"}
@@ -90,7 +90,7 @@ print("Difference (Backend Only):", specialists)
 print("Symmetric Difference:", unique_to_one)
 
 
-#Task 5
+## --- Task 5 ---
 # Collection Conversion Pipeline
 
 float_tuple = (4.5, 2.1, 8.7, 1.3, 6.9)

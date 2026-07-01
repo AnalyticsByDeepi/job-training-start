@@ -41,8 +41,8 @@ api_response = {
         {
             "id": 1,
             "info": {
-                "email": "user1@work.com",
-                "tags": ["admin", "dev"]
+                "email": "augustia@gmail.com",
+                "tags": ["admin", "deepu"]
             }
         },
         {
